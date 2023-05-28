@@ -1,0 +1,537 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.field-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 5px 10px;
+}
+
+.field-form-name {
+  padding: 10px;
+}
+
+.field-form-name label {
+  margin-right: 20px;
+}
+
+.field-form-name input {
+  margin: 8px 0;
+  padding: 8px 2px;
+  padding: 10px;
+  border-radius: 21px;
+  border-width: 0 0 2px 0;
+  background-color: antiquewhite;
+  outline: none;
+}
+
+.field-form-acres {
+  padding: 10px;
+  margin-right: -44px;
+}
+
+.field-form-acres label {
+  margin-right: 20px;
+}
+
+.field-form-acres input {
+  margin: 8px 0;
+  padding: 8px 2px;
+  padding: 10px;
+  border-radius: 21px;
+  border-width: 0 0 2px 0;
+  background-color: antiquewhite;
+  outline: none;
+}
+
+.field-form button {
+  border: none;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 15%;
+  outline: none;
+}
+
+.fields-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.field-box {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px;
+  width: 200px;
+  max-height: 150px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: 5px 5px;
+}
+
+.no-fields {
+  text-align: center;
+  padding: 50px;
+  border-radius: 29px;
+  background-color: darkorchid;
+  font-size: 15px;
+  font-style: italic;
+  margin: 10px;
+  color: aliceblue;
+}
+
+.tractor-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 10px; */
+}
+
+.tractor-form-action {
+  /* padding: 10px; */
+}
+
+.tractor-form-action label {
+  margin: 10px;
+}
+
+.tractor-form-action input {
+  margin: 8px 0;
+  padding: 8px 2px;
+  padding: 10px;
+  border-radius: 21px;
+  border-width: 0 0 2px 0;
+  background-color: antiquewhite;
+  outline: none;
+}
+
+.tractor-form-rounds {
+  /* padding: 10px; */
+  margin-right: -40px;
+}
+
+.tractor-form-rounds label {
+  margin: 10px;
+}
+
+.tractor-form-rounds input {
+  margin: 8px 0;
+  padding: 8px 2px;
+  padding: 10px;
+  border-radius: 21px;
+  border-width: 0 0 2px 0;
+  background-color: antiquewhite;
+  outline: none;
+}
+
+.tractor-form-expense {
+  /* padding: 10px; */
+  margin-right: 40px;
+}
+
+.tractor-form-expense label {
+  margin: 10px;
+}
+
+.tractor-form-expense input {
+  margin: 8px 0;
+  padding: 8px 2px;
+  padding: 10px;
+  border-radius: 21px;
+  border-width: 0 0 2px 0;
+  background-color: antiquewhite;
+  outline: none;
+}
+
+.tractor-form-select {
+  /* padding: 10px; */
+  margin-right: -20px;
+}
+
+.tractor-form-select label {
+  margin: 10px;
+}
+
+.tractor-form-select select {
+  margin: 8px 0;
+  padding: 8px 2px;
+  padding: 10px;
+  border-radius: 21px;
+  border-width: 0 0 2px 0;
+  background-color: antiquewhite;
+  outline: none;
+}
+
+.tractor-form-date {
+  /* padding: 10px; */
+  margin-right: -54px;
+}
+
+.tractor-form-date label {
+  margin: 10px;
+}
+
+.tractor-form-date input {
+  margin: 8px 0;
+  padding: 8px 2px;
+  padding: 10px;
+  border-radius: 21px;
+  border-width: 0 0 2px 0;
+  background-color: antiquewhite;
+  outline: none;
+}
+
+.tractor-form button {
+  border: none;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 95%;
+  outline: none;
+}
+
+.total-expense {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  text-align: center;
+  position: relative;
+  left: 15px;
+}
+
+.tractor-heading {
+  text-align: center;
+  color: darkslategrey;
+  text-transform: uppercase;
+}
+
+.unique-card {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid;
+  box-shadow: 5px 5px;
+  background-color: #4df0f5;
+  width: 200px;
+}
+
+.unique-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.landing-header {
+  text-align: center;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-image: url(./images/sunset.jpg);
+  background-size: cover; */
+  margin-top: -10px;
+}
+
+.landing-header strong span {
+  color: darkblue;
+}
+
+.total-acres {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.btn-actions {
+  text-align: center;
+}
+
+.delete-btn {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+  outline: none;
+  border-radius: 20px;
+}
+
+.edit-btn {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  background-color: orange;
+  cursor: pointer;
+  outline: none;
+  border-radius: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.edit-form-button {
+  display: flex;
+}
+
+.edit-form-button button {
+  border: none;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 40%;
+  outline: none;
+}
+
+/* Extra small devices (phones, 600px and down)  */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 250px) and (max-device-width: 480px) {
+  .field-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 10px;
+    padding: 0px;
+  }
+
+  .field-form-name {
+    padding: 0px;
+  }
+
+  .field-form button {
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 40%;
+    outline: none;
+  }
+
+  .tractor-form-expense {
+    padding: 0px;
+    margin-right: 0px;
+  }
+
+  .tractor-form-action input {
+    margin: 8px 0;
+    padding: 8px 2px;
+    padding: 10px;
+    border-radius: 21px;
+    border-width: 0 0 2px 0;
+    background-color: antiquewhite;
+    outline: none;
+    width: 70px;
+  }
+
+  .tractor-form-rounds input {
+    margin: 8px 0;
+    padding: 8px 2px;
+    padding: 10px;
+    border-radius: 21px;
+    border-width: 0 0 2px 0;
+    background-color: antiquewhite;
+    outline: none;
+    width: 70px;
+  }
+
+  .tractor-form-expense input {
+    margin: 8px 0;
+    padding: 8px 2px;
+    padding: 10px;
+    border-radius: 21px;
+    border-width: 0 0 2px 0;
+    background-color: antiquewhite;
+    outline: none;
+    width: 70px;
+  }
+
+  .tractor-form-expense label {
+    margin: 0px;
+  }
+
+  .tractor-form-select label {
+    margin: 0px;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul li {
+    margin: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .fields-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .unique-cards {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* Common Form styles in CSS */
+
+.signin-error {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: crimson;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 10px 10px #e1a642;
+}
+
+.auth-form div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.auth-form div label {
+  margin-bottom: 10px;
+}
+
+.auth-form div input {
+  padding: 10px;
+  width: 100%;
+}
+
+.auth-form div button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.auth-form div select {
+  padding: 10px;
+  width: 110%;
+}
+
+.signout-btn {
+  cursor: pointer;
+  padding: 10px;
+  width: 130%;
+  outline: none;
+  background: transparent;
+  border: none;
+  background-color: #e8384c;
+  color: white;
+  text-align: center;
+}
+
+.reload-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 12px;
+  cursor: pointer;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  text-align: center;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
